@@ -3,3 +3,15 @@
 .object{aspect-ratio:auto;height:clamp(62px,calc((100svh - 350px)/4),110px)}
 @media(min-width:761px) and (max-width:1050px){.object{height:clamp(58px,calc((100svh - 330px)/6),95px)}}
 @media(max-width:760px){.object{height:clamp(56px,calc((100svh - 285px)/6),88px)}}
+/* A free-form field: there are no rows, columns, tiles or object cards. */
+.collection-wrap{padding:13px;background:#efece0}
+.collection-top{margin:0 3px 9px}
+.field-scroll{height:clamp(380px,calc(100svh - 285px),650px);overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-color:#a7b49b #e6e7d8;scrollbar-width:thin;border-radius:10px;background:radial-gradient(ellipse at 20% 30%,#f9f3e4 0,transparent 50%),radial-gradient(ellipse at 80% 70%,#e3ead8 0,transparent 60%),#f1efdf;touch-action:pan-y}
+.board{display:block;position:relative;width:100%;isolation:isolate}
+.object,.object:nth-child(n){position:absolute;aspect-ratio:auto;min-width:0;min-height:0;margin:0;padding:4px;border:0;border-radius:50%;background:transparent;box-shadow:none;clip-path:circle(50%);transform:rotate(var(--turn));transition:background .12s;touch-action:pan-y}
+.object svg{width:100%;height:100%;pointer-events:none}
+.object:not(:disabled):hover{background:#dce6cc;border:0}
+.object.wrong,.object.wrong:nth-child(n){background:#efd0bf;border:0}
+.object:focus-visible{outline:0;background:#dce6cc;box-shadow:inset 0 0 0 3px #9c684d}
+.target-row{min-height:82px}.target-words{padding-left:4px}.target-words h2{font-size:31px}.field-hint{font-size:14px;line-height:1.6;color:var(--muted);margin:8px 0 0}.feedback{margin-top:6px}.overlay{z-index:2}.overlay-card{padding:10px;background:#faf7eceb;border-radius:16px}
+@media(max-width:760px){.collection-wrap{padding:9px}.field-scroll{height:clamp(360px,calc(100svh - 295px),610px)}.target-row{min-height:75px}.target-words h2{font-size:29px}.field-hint{font-size:14px}.overlay-card{padding:18px 8px}.overlay p{font-size:17px}}
