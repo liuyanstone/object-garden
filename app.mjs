@@ -23,7 +23,7 @@ function begin(){if(checkDay())return;audio.unlock();if(round.phase==='finished'
 $('#action').onclick=begin;
 $('#pause').onclick=()=>{if(round.phase==='paused')begin();else pauseRound();};
 $('#board').addEventListener('click',e=>{const b=e.target.closest('button[data-object]');if(!b||checkDay()||round.phase!=='playing')return;sync();if(round.phase!=='playing')return;const correct=b.dataset.object===round.target;round=choose(round,b.dataset.object);notice=correct?'correct':'wrong';noticeObject=round.target;if(correct)audio.step();else{audio.bump();b.classList.add('wrong');setTimeout(()=>b.classList.remove('wrong'),350);}live();target();persist();});
-$('#language').onchange=e=>{pauseRound();lang=e.target.value==='zh'?'zh':'en';try{localStorage.setItem('object-garden-language',lang);}catch{}render();};
+$('#language').onchange=e=>{const selected=e.target.value;pauseRound();lang=selected==='zh'?'zh':'en';try{localStorage.setItem('object-garden-language',lang);}catch{}render();};
 $('#sound').onclick=()=>{audio.setEnabled(!audio.enabled);$('#sound').innerHTML='♪ '+text(audio.enabled?'soundOn':'soundOff');$('#sound').setAttribute('aria-pressed',audio.enabled);};
 $('#helpBtn').onclick=()=>{helpWasPlaying=round.phase==='playing';pauseRound();$('#help').showModal();};
 $('#closeHelp').onclick=$('#gotIt').onclick=()=>$('#help').close();
