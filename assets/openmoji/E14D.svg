@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="emoji" viewBox="-15.12 -15.12 102.24 102.24">
+  <g id="color">
+    <polygon fill="#d0cfce" points="60.1089 47 60.1089 56 12 56 12 47 18.8727 47 18.8727 47 27.709 47 27.709 47 60.1089 47" />
+    <rect fill="#d0cfce" height="4" width="4.9091" x="14.9454" y="56" />
+    <path d="M20.8363,10.5h-2.2876c-1.4433,0-2.6214,1.2-2.6214,2.67v33.83h4.9091V15" fill="#d0cfce" />
+    <rect fill="#d0cfce" height="4" width="4.9091" x="52.2544" y="56" />
+    <rect fill="#3f3f3f" height="5" width="4.9091" x="20.8363" y="22" />
+    <rect fill="#3f3f3f" height="5" width="4.9091" x="37.5272" y="22" />
+    <rect fill="#3f3f3f" height="2.5" width="2.5725" x="38.6934" y="27" />
+    <rect fill="#9b9b9a" height="10" width="8.8363" x="20.8363" y="5" />
+    <path d="M30,11v4h20.2445v32h6.0733V13.3286c0-1.286-1.0425-2.3286-2.3286-2.3286h-23.9892Z" fill="#d0cfce" />
+    <rect fill="#92d3f5" height="3" width="10" x="31" y="40" />
+  </g>
+  <g id="skin-shadow">
+    <polygon fill="#fff" points="22 6 28 15 29 14 29 12 24 5 22 6" />
+  </g>
+  <g id="line">
+    <polygon fill="none" points="60.1089 47 60.1089 56 12 56 12 47 18.8727 47 18.8727 47 27.709 47 27.709 47 60.1089 47" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect fill="none" height="4" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="4.9091" x="14.9454" y="56" />
+    <path d="M51.2726,47h4.9091V13.17c0-1.47-1.1782-2.67-2.6214-2.67h-23.8876" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <path d="M20.8363,10.5h-2.2876c-1.4433,0-2.6214,1.2-2.6214,2.67v33.83h4.9091V15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="51.2726" x2="29.6727" y1="15" y2="15" />
+    <path d="M37.5272,22v5h4.9091v-5h-4.9091ZM29.6727,15h21.5999v12.57M51.2726,32.89v14.11h-30.4363V15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect fill="none" height="10" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="8.8363" x="20.8363" y="5" />
+    <rect fill="none" height="4" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="4.9091" x="52.2544" y="56" />
+    <rect fill="none" height="5" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="4.9091" x="20.8363" y="22" />
+    <rect fill="none" height="5" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="4.9091" x="37.5272" y="22" />
+    <rect fill="none" height="2.5" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="2.5725" x="38.6934" y="27" />
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="45.3817" x2="42.4363" y1="24.5" y2="24.5" />
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="37.5272" x2="25.7454" y1="24.5" y2="24.5" />
+    <path d="M39.9817,29.5v4.25c0,1.7949-1.4286,3.25-3.1909,3.25h0c-1.7623,0-3.1909,1.4551-3.1909,3.25" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="24.7636" x2="47.3453" y1="43.4958" y2="43.4958" />
+    <polyline fill="none" points="33.5417 40.4958 30.6545 40.4958 30.6545 43.4958 41.4544 43.4958 41.4544 40.4958 39.0949 40.4958" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="45.7479" x2="45.7479" y1="43.4958" y2="47" />
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="27.0934" x2="27.0934" y1="43.4958" y2="47" />
+    <path d="M55.7509,51.6136c0,1.0175-.8174,1.85-1.8164,1.85s-1.8164-.8325-1.8164-1.85.8174-1.85,1.8164-1.85,1.8164.8325,1.8164,1.85h0Z" />
+  </g>
+</svg>

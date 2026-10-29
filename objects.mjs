@@ -1,3 +1,4 @@
+import{EXTRA_OBJECTS}from './catalog-extra.mjs?v=thousand-4';
 // Original illustrations plus adapted Lucide SVGs; see LUCIDE-LICENSE.txt.
 // Targets are text only. Each ID names a different recognizable object.
 const entries=[
@@ -174,6 +175,6 @@ entries.push(...[
 ["wine","Wine glass","高脚酒杯","<g transform=\"translate(8 8) scale(3.5)\" fill=\"none\" stroke-width=\"1.5\"><g stroke=\"none\"><path d=\"M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5Z\" fill=\"#e5d4a5\" fill-rule=\"evenodd\" /></g><path d=\"M8 22h8\" /><path d=\"M7 10h10\" /><path d=\"M12 15v7\" /><path d=\"M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5Z\" /></g>"],
 ["wrench","Wrench","扳手","<g transform=\"translate(8 8) scale(3.5)\" fill=\"none\" stroke-width=\"1.5\"><g stroke=\"none\"><path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z\" fill=\"#c6dce1\" fill-rule=\"evenodd\" /></g><path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z\" /></g>"]
 ]);
-export const OBJECTS=entries.map(([id,en,zh,art])=>({id,en,zh,art}));
+export const OBJECTS=[...entries.map(([id,en,zh,art])=>({id,en,zh,art})),...EXTRA_OBJECTS];
 export const BY_ID=Object.fromEntries(OBJECTS.map(o=>[o.id,o]));
-export function picture(id){return `<svg viewBox="0 0 100 100" aria-hidden="true" focusable="false" stroke="#526459" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">${BY_ID[id].art}</svg>`;}
+export function picture(id){if(BY_ID[id].src)return `<img src="${BY_ID[id].src}" alt="" aria-hidden="true" draggable="false" decoding="async">`;return `<svg viewBox="0 0 100 100" aria-hidden="true" focusable="false" stroke="#526459" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">${BY_ID[id].art}</svg>`;}
