@@ -1,4 +1,4 @@
-import{OBJECTS}from './objects.mjs?v=thousand-4';
+import{OBJECTS}from './objects.mjs?v=review-5';
 export const DURATION=90000,POINTS=100,SIZE=150;
 export function localDay(d=new Date()){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
 function shuffled(a,random){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}

@@ -1,4 +1,4 @@
-import{EXTRA_OBJECTS}from './catalog-extra.mjs?v=thousand-4';
+import{EXTRA_OBJECTS}from './catalog-extra.mjs?v=review-5';
 // Original illustrations plus adapted Lucide SVGs; see LUCIDE-LICENSE.txt.
 // Targets are text only. Each ID names a different recognizable object.
 const entries=[
