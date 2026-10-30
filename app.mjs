@@ -1,21 +1,22 @@
-import{BY_ID,picture}from './objects.mjs?v=review-5';
-import{scatter}from './scatter.mjs?v=review-5';
-import{DURATION,SIZE,createRound,localDay,start,tick,pause,choose,score,restore,saveResult,restoreRecords,answerAtEnd}from './engine.mjs?v=review-5';
-import{en,zh}from './i18n.mjs?v=review-5';
+import{BY_ID,picture,CATALOG_SIZE}from './objects.mjs?v=morandi-1';
+import{scatter}from './scatter.mjs?v=morandi-1';
+import{DURATION,SIZE,createRound,localDay,start,tick,pause,choose,score,restore,saveResult,restoreRecords,answerAtEnd}from './engine.mjs?v=morandi-1';
+import{en,zh}from './i18n.mjs?v=morandi-1';
 import{createGameAudio}from './audio.mjs';
 const $=s=>document.querySelector(s),KEY='object-garden-v1',audio=createGameAudio('object-garden-sound');
+let catalogUpdated=false;
 let lang='en',records={},round=createRound(),storageOK=true;
-try{lang=localStorage.getItem('object-garden-language')==='zh'?'zh':'en';const saved=JSON.parse(localStorage.getItem(KEY)||'null');records=restoreRecords(saved?.records);round=restore(saved?.active)||round;}catch{storageOK=false;}
+try{lang=localStorage.getItem('object-garden-language')==='zh'?'zh':'en';const saved=JSON.parse(localStorage.getItem(KEY)||'null');records=restoreRecords(saved?.records);const resumed=restore(saved?.active);catalogUpdated=Boolean(saved?.active&&!resumed);round=resumed||round;}catch{storageOK=false;}
 if(round.day!==localDay())round=createRound();
 let last=performance.now(),lastSave=0,notice='notice',noticeObject='',helpWasPlaying=false,loadingPictures=false;
-const text=(key,vars={})=>Object.entries(vars).reduce((s,[k,v])=>s.replaceAll(`{${k}}`,v),(lang==='zh'?zh:en)[key]);
+const text=(key,vars={})=>Object.entries(vars).reduce((s,[k,v])=>s.replaceAll(`{${k}}`,v),(lang==='zh'?zh:en)[key].replaceAll('{catalog}',CATALOG_SIZE));
 const objectName=id=>BY_ID[id][lang];
 const number=n=>n.toLocaleString(lang==='zh'?'zh-CN':'en');
 function persist(){try{localStorage.setItem(KEY,JSON.stringify({records,active:round.phase==='finished'?null:round}));lastSave=performance.now();}catch{storageOK=false;}}
 function sync(){const now=performance.now();round=tick(round,now-last);last=now;if(round.phase==='finished')finish();}
 function finish(){records=saveResult(records,round);audio.success();notice='notice';persist();render();$('#game').scrollIntoView({block:'start',behavior:'instant'});$('#action').focus({preventScroll:true});markAnswer(true);}
 function live(){const seconds=Math.ceil((DURATION-round.elapsed)/1000);$('#time').textContent=seconds;$('#found').textContent=number(round.found);$('#score').textContent=number(score(round));$('#timeBar').style.transform=`scaleX(${1-round.elapsed/DURATION})`;$('#timeTrack').classList.toggle('urgent',seconds<=10);$('#timeTrack').setAttribute('aria-valuenow',seconds);}
-function target(){const hidden=round.phase!=='playing';$('#targetName').textContent=hidden?'—':objectName(round.target);$('#feedback').textContent=round.phase!=='playing'?text(round.phase==='paused'?'pausedBody':'notice'):!storageOK?text('warningStorage'):notice==='notice'?text('notice'):text(notice,{object:objectName(noticeObject||round.target)});$('#feedback').classList.toggle('wrong',notice==='wrong');}
+function target(){const hidden=round.phase!=='playing';$('#targetName').textContent=hidden?'—':objectName(round.target);$('#feedback').textContent=round.phase!=='playing'?text(round.phase==='paused'?'pausedBody':catalogUpdated?'catalogUpdated':'notice'):!storageOK?text('warningStorage'):notice==='notice'?text('notice'):text(notice,{object:objectName(noticeObject||round.target)});$('#feedback').classList.toggle('wrong',notice==='wrong');}
 let placedWidth=0;
 function placeObjects(){const width=Math.floor($('#board').clientWidth);if(!width)return;placedWidth=width;const layout=scatter(width,round.board.length,round.layoutSeed);$('#board').style.height=layout.height+'px';Array.from($('#board').querySelectorAll('button')).forEach((b,i)=>{const p=layout.items[i];b.style.left=(p.x-p.r)+'px';b.style.top=(p.y-p.r)+'px';b.style.width=b.style.height=(p.r*2)+'px';b.style.setProperty('--turn',p.rotation+'deg');});markAnswer();}
 function markAnswer(scroll=false){
@@ -39,7 +40,7 @@ async function begin(){
  const loaded=await Promise.all(round.board.map(preloadPicture));loadingPictures=false;
  if(round!==expected||document.hidden||$('#help').open){render();return;}
  if(loaded.some(ok=>!ok)){render();$('#feedback').textContent=text('pictureError');return;}
- round=start(round);notice='notice';last=performance.now();render();persist();$('#game').scrollIntoView({block:'start',behavior:'instant'});
+ round=start(round);notice='notice';catalogUpdated=false;last=performance.now();render();persist();$('#game').scrollIntoView({block:'start',behavior:'instant'});
 }
 $('#action').onclick=begin;
 $('#pause').onclick=()=>{if(round.phase==='paused')begin();else pauseRound();};

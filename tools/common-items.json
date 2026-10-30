@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "cat",
+    "en": "Cat",
+    "zh": "猫",
+    "category": "animals",
+    "hexcode": "1F408",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "dog",
+    "en": "Dog",
+    "zh": "狗",
+    "category": "animals",
+    "hexcode": "1F415",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "rabbit",
+    "en": "Rabbit",
+    "zh": "兔子",
+    "category": "animals",
+    "hexcode": "1F407",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "rat",
+    "en": "Rat",
+    "zh": "老鼠",
+    "category": "animals",
+    "hexcode": "1F401",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "squirrel",
+    "en": "Squirrel",
+    "zh": "松鼠",
+    "category": "animals",
+    "hexcode": "1F43F",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F412",
+    "en": "Monkey",
+    "zh": "猴子",
+    "category": "animals",
+    "hexcode": "1F412",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F98A",
+    "en": "Fox",
+    "zh": "狐狸",
+    "category": "animals",
+    "hexcode": "1F98A",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F981",
+    "en": "Lion",
+    "zh": "狮子",
+    "category": "animals",
+    "hexcode": "1F981",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F405",
+    "en": "Tiger",
+    "zh": "老虎",
+    "category": "animals",
+    "hexcode": "1F405",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F406",
+    "en": "Leopard",
+    "zh": "豹子",
+    "category": "animals",
+    "hexcode": "1F406",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F43A",
+    "en": "Wolf",
+    "zh": "狼",
+    "category": "animals",
+    "hexcode": "1F43A",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F99D",
+    "en": "Raccoon",
+    "zh": "浣熊",
+    "category": "animals",
+    "hexcode": "1F99D",
+    "author": "Laura Schießer"
+  },
+  {
+    "id": "om-1F40E",
+    "en": "Horse",
+    "zh": "马",
+    "category": "animals",
+    "hexcode": "1F40E",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F993",
+    "en": "Zebra",
+    "zh": "斑马",
+    "category": "animals",
+    "hexcode": "1F993",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F98C",
+    "en": "Deer",
+    "zh": "鹿",
+    "category": "animals",
+    "hexcode": "1F98C",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F404",
+    "en": "Cow",
+    "zh": "奶牛",
+    "category": "animals",
+    "hexcode": "1F404",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F416",
+    "en": "Pig",
+    "zh": "猪",
+    "category": "animals",
+    "hexcode": "1F416",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F411",
+    "en": "Sheep",
+    "zh": "绵羊",
+    "category": "animals",
+    "hexcode": "1F411",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F410",
+    "en": "Goat",
+    "zh": "山羊",
+    "category": "animals",
+    "hexcode": "1F410",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F42A",
+    "en": "Camel",
+    "zh": "骆驼",
+    "category": "animals",
+    "hexcode": "1F42A",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F992",
+    "en": "Giraffe",
+    "zh": "长颈鹿",
+    "category": "animals",
+    "hexcode": "1F992",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F418",
+    "en": "Elephant",
+    "zh": "大象",
+    "category": "animals",
+    "hexcode": "1F418",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F98F",
+    "en": "Rhino",
+    "zh": "犀牛",
+    "category": "animals",
+    "hexcode": "1F98F",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F99B",
+    "en": "Hippo",
+    "zh": "河马",
+    "category": "animals",
+    "hexcode": "1F99B",
+    "author": "Laura Schießer"
+  },
+  {
+    "id": "om-1F439",
+    "en": "Hamster",
+    "zh": "仓鼠",
+    "category": "animals",
+    "hexcode": "1F439",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F994",
+    "en": "Hedgehog",
+    "zh": "刺猬",
+    "category": "animals",
+    "hexcode": "1F994",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F987",
+    "en": "Bat",
+    "zh": "蝙蝠",
+    "category": "animals",
+    "hexcode": "1F987",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F43B",
+    "en": "Bear",
+    "zh": "熊",
+    "category": "animals",
+    "hexcode": "1F43B",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F428",
+    "en": "Koala",
+    "zh": "考拉",
+    "category": "animals",
+    "hexcode": "1F428",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F43C",
+    "en": "Panda",
+    "zh": "熊猫",
+    "category": "animals",
+    "hexcode": "1F43C",
+    "author": "Sofie Ascherl"
+  },
+  {
+    "id": "om-1F998",
+    "en": "Kangaroo",
+    "zh": "袋鼠",
+    "category": "animals",
+    "hexcode": "1F998",
+    "author": "Laura Schießer"
+  },
+  {
+    "id": "om-1F413",
+    "en": "Rooster",
+    "zh": "公鸡",
+    "category": "animals",
+    "hexcode": "1F413",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F424",
+    "en": "Chick",
+    "zh": "小鸡",
+    "category": "animals",
+    "hexcode": "1F424",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F427",
+    "en": "Penguin",
+    "zh": "企鹅",
+    "category": "animals",
+    "hexcode": "1F427",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F54A",
+    "en": "Pigeon",
+    "zh": "鸽子",
+    "category": "animals",
+    "hexcode": "1F54A",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F985",
+    "en": "Eagle",
+    "zh": "鹰",
+    "category": "animals",
+    "hexcode": "1F985",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F986",
+    "en": "Duck",
+    "zh": "鸭子",
+    "category": "animals",
+    "hexcode": "1F986",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F9A2",
+    "en": "Swan",
+    "zh": "天鹅",
+    "category": "animals",
+    "hexcode": "1F9A2",
+    "author": "Laura Schießer"
+  },
+  {
+    "id": "om-1F989",
+    "en": "Owl",
+    "zh": "猫头鹰",
+    "category": "animals",
+    "hexcode": "1F989",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F99A",
+    "en": "Peacock",
+    "zh": "孔雀",
+    "category": "animals",
+    "hexcode": "1F99A",
+    "author": "Laura Schießer"
+  },
+  {
+    "id": "om-1F99C",
+    "en": "Parrot",
+    "zh": "鹦鹉",
+    "category": "animals",
+    "hexcode": "1F99C",
+    "author": "Ricarda Krejci"
+  },
+  {
+    "id": "om-1FABF",
+    "en": "Goose",
+    "zh": "鹅",
+    "category": "animals",
+    "hexcode": "1FABF",
+    "author": "Paul Gabriel"
+  },
+  {
+    "id": "om-1F438",
+    "en": "Frog",
+    "zh": "青蛙",
+    "category": "animals",
+    "hexcode": "1F438",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F40A",
+    "en": "Crocodile",
+    "zh": "鳄鱼",
+    "category": "animals",
+    "hexcode": "1F40A",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F98E",
+    "en": "Lizard",
+    "zh": "蜥蜴",
+    "category": "animals",
+    "hexcode": "1F98E",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F40D",
+    "en": "Snake",
+    "zh": "蛇",
+    "category": "animals",
+    "hexcode": "1F40D",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F995",
+    "en": "Dinosaur",
+    "zh": "恐龙",
+    "category": "animals",
+    "hexcode": "1F995",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F40B",
+    "en": "Whale",
+    "zh": "鲸鱼",
+    "category": "animals",
+    "hexcode": "1F40B",
+    "author": "Kris Kowal"
+  },
+  {
+    "id": "om-1F42C",
+    "en": "Dolphin",
+    "zh": "海豚",
+    "category": "animals",
+    "hexcode": "1F42C",
+    "author": "Kris Kowal"
+  },
+  {
+    "id": "om-1F9AD",
+    "en": "Seal",
+    "zh": "海豹",
+    "category": "animals",
+    "hexcode": "1F9AD",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F988",
+    "en": "Shark",
+    "zh": "鲨鱼",
+    "category": "animals",
+    "hexcode": "1F988",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F419",
+    "en": "Octopus",
+    "zh": "章鱼",
+    "category": "animals",
+    "hexcode": "1F419",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "turtle",
+    "en": "Turtle",
+    "zh": "乌龟",
+    "category": "animals",
+    "hexcode": "1F422",
+    "author": "Robert Winslow"
+  },
+  {
+    "id": "fish",
+    "en": "Fish",
+    "zh": "鱼",
+    "category": "animals",
+    "hexcode": "1F41F",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F980",
+    "en": "Crab",
+    "zh": "螃蟹",
+    "category": "animals",
+    "hexcode": "1F980",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F99E",
+    "en": "Lobster",
+    "zh": "龙虾",
+    "category": "animals",
+    "hexcode": "1F99E",
+    "author": "Ricarda Krejci"
+  },
+  {
+    "id": "shrimp",
+    "en": "Shrimp",
+    "zh": "虾",
+    "category": "animals",
+    "hexcode": "1F990",
+    "author": "Robert Winslow"
+  },
+  {
+    "id": "om-1F991",
+    "en": "Squid",
+    "zh": "鱿鱼",
+    "category": "animals",
+    "hexcode": "1F991",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1FABC",
+    "en": "Jellyfish",
+    "zh": "水母",
+    "category": "animals",
+    "hexcode": "1FABC",
+    "author": "Raluca Maniu"
+  },
+  {
+    "id": "butterfly",
+    "en": "Butterfly",
+    "zh": "蝴蝶",
+    "category": "animals",
+    "hexcode": "1F98B",
+    "author": "Robert Winslow"
+  },
+  {
+    "id": "snail",
+    "en": "Snail",
+    "zh": "蜗牛",
+    "category": "animals",
+    "hexcode": "1F40C",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F41B",
+    "en": "Caterpillar",
+    "zh": "毛毛虫",
+    "category": "animals",
+    "hexcode": "1F41B",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F41C",
+    "en": "Ant",
+    "zh": "蚂蚁",
+    "category": "animals",
+    "hexcode": "1F41C",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F41D",
+    "en": "Bee",
+    "zh": "蜜蜂",
+    "category": "animals",
+    "hexcode": "1F41D",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "om-1F41E",
+    "en": "Ladybug",
+    "zh": "瓢虫",
+    "category": "animals",
+    "hexcode": "1F41E",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F577",
+    "en": "Spider",
+    "zh": "蜘蛛",
+    "category": "animals",
+    "hexcode": "1F577",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "gi-dragonfly",
+    "en": "Dragonfly",
+    "zh": "蜻蜓",
+    "category": "animals",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "gi-seahorse",
+    "en": "Seahorse",
+    "zh": "海马",
+    "category": "animals",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "gi-ostrich",
+    "en": "Ostrich",
+    "zh": "鸵鸟",
+    "category": "animals",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "flower",
+    "en": "Daisy",
+    "zh": "菊花",
+    "category": "plants",
+    "hexcode": "1F33C",
+    "author": "Hilda Kalyoncu"
+  },
+  {
+    "id": "leaf",
+    "en": "Ginkgo leaf",
+    "zh": "银杏叶",
+    "category": "plants",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "tree",
+    "en": "Pine tree",
+    "zh": "松树",
+    "category": "plants",
+    "hexcode": "1F332",
+    "author": "Hilda Kalyoncu"
+  },
+  {
+    "id": "cactus",
+    "en": "Cactus",
+    "zh": "仙人掌",
+    "category": "plants",
+    "hexcode": "1F335",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F490",
+    "en": "Bouquet",
+    "zh": "花束",
+    "category": "plants",
+    "hexcode": "1F490",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F339",
+    "en": "Rose",
+    "zh": "玫瑰",
+    "category": "plants",
+    "hexcode": "1F339",
+    "author": "Hilda Kalyoncu"
+  },
+  {
+    "id": "om-1F33B",
+    "en": "Sunflower",
+    "zh": "向日葵",
+    "category": "plants",
+    "hexcode": "1F33B",
+    "author": "Hilda Kalyoncu"
+  },
+  {
+    "id": "om-1F337",
+    "en": "Tulip",
+    "zh": "郁金香",
+    "category": "plants",
+    "hexcode": "1F337",
+    "author": "Hilda Kalyoncu"
+  },
+  {
+    "id": "om-1F338",
+    "en": "Cherry blossom",
+    "zh": "樱花",
+    "category": "plants",
+    "hexcode": "1F338",
+    "author": "Hilda Kalyoncu"
+  },
+  {
+    "id": "om-1FAB7",
+    "en": "Lotus",
+    "zh": "莲花",
+    "category": "plants",
+    "hexcode": "1FAB7",
+    "author": "Max Isele"
+  },
+  {
+    "id": "om-1F331",
+    "en": "Seedling",
+    "zh": "幼苗",
+    "category": "plants",
+    "hexcode": "1F331",
+    "author": "Hilda Kalyoncu"
+  },
+  {
+    "id": "om-1F334",
+    "en": "Palm tree",
+    "zh": "棕榈树",
+    "category": "plants",
+    "hexcode": "1F334",
+    "author": "Hilda Kalyoncu"
+  },
+  {
+    "id": "om-1F33E",
+    "en": "Rice stalks",
+    "zh": "稻穗",
+    "category": "plants",
+    "hexcode": "1F33E",
+    "author": "Hend Hourani"
+  },
+  {
+    "id": "om-1F340",
+    "en": "Four leaf clover",
+    "zh": "四叶草",
+    "category": "plants",
+    "hexcode": "1F340",
+    "author": "Hilda Kalyoncu"
+  },
+  {
+    "id": "om-1F341",
+    "en": "Maple leaf",
+    "zh": "枫叶",
+    "category": "plants",
+    "hexcode": "1F341",
+    "author": "Hilda Kalyoncu"
+  },
+  {
+    "id": "gi-bamboo",
+    "en": "Bamboo",
+    "zh": "竹子",
+    "category": "plants",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "gi-cotton-flower",
+    "en": "Cotton",
+    "zh": "棉花",
+    "category": "plants",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "gi-dandelion-flower",
+    "en": "Dandelion",
+    "zh": "蒲公英",
+    "category": "plants",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "potted-plant",
+    "en": "Potted plant",
+    "zh": "盆栽",
+    "category": "plants",
+    "hexcode": "1FAB4",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "sun",
+    "en": "Sun",
+    "zh": "太阳",
+    "category": "nature",
+    "hexcode": "2600",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "moon",
+    "en": "Moon",
+    "zh": "月亮",
+    "category": "nature",
+    "hexcode": "1F319",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "cloud",
+    "en": "Cloud",
+    "zh": "云朵",
+    "category": "nature",
+    "hexcode": "2601",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "star",
+    "en": "Star",
+    "zh": "星星",
+    "category": "nature",
+    "hexcode": "2B50",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "rainbow",
+    "en": "Rainbow",
+    "zh": "彩虹",
+    "category": "nature",
+    "hexcode": "1F308",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "snowflake",
+    "en": "Snowflake",
+    "zh": "雪花",
+    "category": "nature",
+    "hexcode": "2744",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "om-26C4",
+    "en": "Snowman",
+    "zh": "雪人",
+    "category": "nature",
+    "hexcode": "26C4",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "om-1F525",
+    "en": "Fire",
+    "zh": "火焰",
+    "category": "nature",
+    "hexcode": "1F525",
+    "author": "Guemil Project"
+  },
+  {
+    "id": "om-1F4A7",
+    "en": "Water drop",
+    "zh": "水滴",
+    "category": "nature",
+    "hexcode": "1F4A7",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "om-1F30A",
+    "en": "Wave",
+    "zh": "浪花",
+    "category": "nature",
+    "hexcode": "1F30A",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "mountain",
+    "en": "Mountain",
+    "zh": "山",
+    "category": "nature",
+    "hexcode": "26F0",
+    "author": "Martin Wehl"
+  },
+  {
+    "id": "om-1F30B",
+    "en": "Volcano",
+    "zh": "火山",
+    "category": "nature",
+    "hexcode": "1F30B",
+    "author": "Guemil Project"
+  },
+  {
+    "id": "om-1F30D",
+    "en": "Earth",
+    "zh": "地球",
+    "category": "nature",
+    "hexcode": "1F30D",
+    "author": "Martin Wehl"
+  },
+  {
+    "id": "shell",
+    "en": "Seashell",
+    "zh": "贝壳",
+    "category": "nature",
+    "hexcode": "1F41A",
+    "author": "Selina Bauder"
+  },
+  {
+    "id": "apple",
+    "en": "Apple",
+    "zh": "苹果",
+    "category": "food",
+    "hexcode": "1F34E",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "pear",
+    "en": "Pear",
+    "zh": "梨",
+    "category": "food",
+    "hexcode": "1F350",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "cherries",
+    "en": "Cherries",
+    "zh": "樱桃",
+    "category": "food",
+    "hexcode": "1F352",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "banana",
+    "en": "Banana",
+    "zh": "香蕉",
+    "category": "food",
+    "hexcode": "1F34C",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F347",
+    "en": "Grapes",
+    "zh": "葡萄",
+    "category": "food",
+    "hexcode": "1F347",
+    "author": "Hend Hourani"
+  },
+  {
+    "id": "om-1F349",
+    "en": "Watermelon",
+    "zh": "西瓜",
+    "category": "food",
+    "hexcode": "1F349",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F34A",
+    "en": "Orange",
+    "zh": "橘子",
+    "category": "food",
+    "hexcode": "1F34A",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F34B",
+    "en": "Lemon",
+    "zh": "柠檬",
+    "category": "food",
+    "hexcode": "1F34B",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F34D",
+    "en": "Pineapple",
+    "zh": "菠萝",
+    "category": "food",
+    "hexcode": "1F34D",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F96D",
+    "en": "Mango",
+    "zh": "芒果",
+    "category": "food",
+    "hexcode": "1F96D",
+    "author": "Ricarda Krejci"
+  },
+  {
+    "id": "om-1F351",
+    "en": "Peach",
+    "zh": "桃子",
+    "category": "food",
+    "hexcode": "1F351",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F353",
+    "en": "Strawberry",
+    "zh": "草莓",
+    "category": "food",
+    "hexcode": "1F353",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1FAD0",
+    "en": "Blueberries",
+    "zh": "蓝莓",
+    "category": "food",
+    "hexcode": "1FAD0",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F95D",
+    "en": "Kiwi fruit",
+    "zh": "猕猴桃",
+    "category": "food",
+    "hexcode": "1F95D",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F345",
+    "en": "Tomato",
+    "zh": "西红柿",
+    "category": "food",
+    "hexcode": "1F345",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F965",
+    "en": "Coconut",
+    "zh": "椰子",
+    "category": "food",
+    "hexcode": "1F965",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-E0C4",
+    "en": "Pomegranate",
+    "zh": "石榴",
+    "category": "food",
+    "hexcode": "E0C4",
+    "author": "Carlin MacKenzie"
+  },
+  {
+    "id": "gi-plum",
+    "en": "Plum",
+    "zh": "李子",
+    "category": "food",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "carrot",
+    "en": "Carrot",
+    "zh": "胡萝卜",
+    "category": "food",
+    "hexcode": "1F955",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F346",
+    "en": "Eggplant",
+    "zh": "茄子",
+    "category": "food",
+    "hexcode": "1F346",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F954",
+    "en": "Potato",
+    "zh": "土豆",
+    "category": "food",
+    "hexcode": "1F954",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F33D",
+    "en": "Corn",
+    "zh": "玉米",
+    "category": "food",
+    "hexcode": "1F33D",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F336",
+    "en": "Chili pepper",
+    "zh": "辣椒",
+    "category": "food",
+    "hexcode": "1F336",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F952",
+    "en": "Cucumber",
+    "zh": "黄瓜",
+    "category": "food",
+    "hexcode": "1F952",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F96C",
+    "en": "Chinese cabbage",
+    "zh": "白菜",
+    "category": "food",
+    "hexcode": "1F96C",
+    "author": "Ricarda Krejci"
+  },
+  {
+    "id": "om-1F966",
+    "en": "Broccoli",
+    "zh": "西兰花",
+    "category": "food",
+    "hexcode": "1F966",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1F9C4",
+    "en": "Garlic",
+    "zh": "大蒜",
+    "category": "food",
+    "hexcode": "1F9C4",
+    "author": "Yasmin Abdullahi"
+  },
+  {
+    "id": "om-1F9C5",
+    "en": "Onion",
+    "zh": "洋葱",
+    "category": "food",
+    "hexcode": "1F9C5",
+    "author": "Yasmin Abdullahi"
+  },
+  {
+    "id": "om-1F95C",
+    "en": "Peanuts",
+    "zh": "花生",
+    "category": "food",
+    "hexcode": "1F95C",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "om-1FADB",
+    "en": "Peas",
+    "zh": "豌豆",
+    "category": "food",
+    "hexcode": "1FADB",
+    "author": "Sonja Partheymüller"
+  },
+  {
+    "id": "om-1FADA",
+    "en": "Ginger",
+    "zh": "生姜",
+    "category": "food",
+    "hexcode": "1FADA",
+    "author": "Jennifer Zhu"
+  },
+  {
+    "id": "om-1F330",
+    "en": "Chestnut",
+    "zh": "栗子",
+    "category": "food",
+    "hexcode": "1F330",
+    "author": "Hend Hourani"
+  },
+  {
+    "id": "mushroom",
+    "en": "Mushroom",
+    "zh": "蘑菇",
+    "category": "food",
+    "hexcode": "1F344",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "gi-pumpkin",
+    "en": "Pumpkin",
+    "zh": "南瓜",
+    "category": "food",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "om-1F360",
+    "en": "Sweet potato",
+    "zh": "红薯",
+    "category": "food",
+    "hexcode": "1F360",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F35E",
+    "en": "Bread",
+    "zh": "面包",
+    "category": "food",
+    "hexcode": "1F35E",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "croissant",
+    "en": "Croissant",
+    "zh": "牛角面包",
+    "category": "food",
+    "hexcode": "1F950",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F95E",
+    "en": "Pancakes",
+    "zh": "煎饼",
+    "category": "food",
+    "hexcode": "1F95E",
+    "author": "Ricarda Krejci"
+  },
+  {
+    "id": "om-1F9C0",
+    "en": "Cheese",
+    "zh": "奶酪",
+    "category": "food",
+    "hexcode": "1F9C0",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "drumstick",
+    "en": "Chicken drumstick",
+    "zh": "鸡腿",
+    "category": "food",
+    "hexcode": "1F357",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "beef",
+    "en": "Steak",
+    "zh": "牛排",
+    "category": "food",
+    "hexcode": "1F969",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F356",
+    "en": "Roast meat",
+    "zh": "烤肉",
+    "category": "food",
+    "hexcode": "1F356",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F354",
+    "en": "Hamburger",
+    "zh": "汉堡",
+    "category": "food",
+    "hexcode": "1F354",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F35F",
+    "en": "French fries",
+    "zh": "薯条",
+    "category": "food",
+    "hexcode": "1F35F",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F32D",
+    "en": "Hot dog",
+    "zh": "热狗",
+    "category": "food",
+    "hexcode": "1F32D",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F96A",
+    "en": "Sandwich",
+    "zh": "三明治",
+    "category": "food",
+    "hexcode": "1F96A",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "pizza",
+    "en": "Pizza",
+    "zh": "披萨",
+    "category": "food",
+    "hexcode": "1F355",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "egg",
+    "en": "Egg",
+    "zh": "鸡蛋",
+    "category": "food",
+    "hexcode": "1F95A",
+    "author": "Niklas Kuntz"
+  },
+  {
+    "id": "om-1F35A",
+    "en": "Rice",
+    "zh": "米饭",
+    "category": "food",
+    "hexcode": "1F35A",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F35C",
+    "en": "Noodles",
+    "zh": "面条",
+    "category": "food",
+    "hexcode": "1F35C",
+    "author": "Hend Hourani"
+  },
+  {
+    "id": "om-1F95F",
+    "en": "Dumpling",
+    "zh": "饺子",
+    "category": "food",
+    "hexcode": "1F95F",
+    "author": "Ricarda Krejci"
+  },
+  {
+    "id": "om-1F96E",
+    "en": "Mooncake",
+    "zh": "月饼",
+    "category": "food",
+    "hexcode": "1F96E",
+    "author": "Ricarda Krejci"
+  },
+  {
+    "id": "om-1F37F",
+    "en": "Popcorn",
+    "zh": "爆米花",
+    "category": "food",
+    "hexcode": "1F37F",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F9C2",
+    "en": "Salt",
+    "zh": "盐",
+    "category": "food",
+    "hexcode": "1F9C2",
+    "author": "Ricarda Krejci"
+  },
+  {
+    "id": "om-1F9C8",
+    "en": "Butter",
+    "zh": "黄油",
+    "category": "food",
+    "hexcode": "1F9C8",
+    "author": "Evelyn Soos"
+  },
+  {
+    "id": "om-1F96B",
+    "en": "Canned food",
+    "zh": "罐头",
+    "category": "food",
+    "hexcode": "1F96B",
+    "author": "Daniel Quiros"
+  },
+  {
+    "id": "om-1F36F",
+    "en": "Honey",
+    "zh": "蜂蜜",
+    "category": "food",
+    "hexcode": "1F36F",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "cake",
+    "en": "Cake",
+    "zh": "蛋糕",
+    "category": "food",
+    "hexcode": "1F382",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F9C1",
+    "en": "Cupcake",
+    "zh": "纸杯蛋糕",
+    "category": "food",
+    "hexcode": "1F9C1",
+    "author": "Jonas Dunkel"
+  },
+  {
+    "id": "cookie",
+    "en": "Cookie",
+    "zh": "饼干",
+    "category": "food",
+    "hexcode": "1F36A",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "candy",
+    "en": "Candy",
+    "zh": "糖果",
+    "category": "food",
+    "hexcode": "1F36C",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F36B",
+    "en": "Chocolate",
+    "zh": "巧克力",
+    "category": "food",
+    "hexcode": "1F36B",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "om-1F36D",
+    "en": "Lollipop",
+    "zh": "棒棒糖",
+    "category": "food",
+    "hexcode": "1F36D",
+    "author": "Carlin MacKenzie"
+  },
+  {
+    "id": "om-1F369",
+    "en": "Doughnut",
+    "zh": "甜甜圈",
+    "category": "food",
+    "hexcode": "1F369",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "ice-cream-cone",
+    "en": "Ice cream",
+    "zh": "冰淇淋",
+    "category": "food",
+    "hexcode": "1F366",
+    "author": "Miriam Vollmeier"
+  },
+  {
+    "id": "gi-ice-pop",
+    "en": "Ice pop",
+    "zh": "冰棒",
+    "category": "food",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "om-1F9CB",
+    "en": "Bubble tea",
+    "zh": "奶茶",
+    "category": "food",
+    "hexcode": "1F9CB",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "milk",
+    "en": "Milk",
+    "zh": "牛奶",
+    "category": "food",
+    "hexcode": "1F95B",
+    "author": "Laura Humpfer"
+  },
+  {
+    "id": "kettle",
+    "en": "Kettle",
+    "zh": "水壶",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "teapot",
+    "en": "Teapot",
+    "zh": "茶壶",
+    "category": "home",
+    "hexcode": "1FAD6",
+    "author": "Andrew Luckett"
+  },
+  {
+    "id": "cup",
+    "en": "Mug",
+    "zh": "茶杯",
+    "category": "home",
+    "hexcode": "2615",
+    "author": "Alexander Müller"
+  },
+  {
+    "id": "om-1F37C",
+    "en": "Baby bottle",
+    "zh": "奶瓶",
+    "category": "home",
+    "hexcode": "1F37C",
+    "author": "Laura Humpfer"
+  },
+  {
+    "id": "om-1F963",
+    "en": "Bowl",
+    "zh": "饭碗",
+    "category": "home",
+    "hexcode": "1F963",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F962",
+    "en": "Chopsticks",
+    "zh": "筷子",
+    "category": "home",
+    "hexcode": "1F962",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "om-1F944",
+    "en": "Spoon",
+    "zh": "勺子",
+    "category": "home",
+    "hexcode": "1F944",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "om-1F52A",
+    "en": "Kitchen knife",
+    "zh": "菜刀",
+    "category": "home",
+    "hexcode": "1F52A",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "cooking-pot",
+    "en": "Soup pot",
+    "zh": "汤锅",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "gi-rice-cooker",
+    "en": "Rice cooker",
+    "zh": "电饭煲",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "gi-pressure-cooker",
+    "en": "Pressure cooker",
+    "zh": "高压锅",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "gi-toaster",
+    "en": "Toaster",
+    "zh": "烤面包机",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "gi-gas-stove",
+    "en": "Gas stove",
+    "zh": "燃气灶",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "refrigerator",
+    "en": "Refrigerator",
+    "zh": "冰箱",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "washing-machine",
+    "en": "Washing machine",
+    "zh": "洗衣机",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "bed-double",
+    "en": "Bed",
+    "zh": "床",
+    "category": "home",
+    "hexcode": "1F6CF",
+    "author": "Lisa Schulz"
+  },
+  {
+    "id": "sofa",
+    "en": "Sofa",
+    "zh": "沙发",
+    "category": "home",
+    "hexcode": "1F6CB",
+    "author": "Lisa Schulz"
+  },
+  {
+    "id": "om-1FA91",
+    "en": "Chair",
+    "zh": "椅子",
+    "category": "home",
+    "hexcode": "1FA91",
+    "author": "Sam Eckert"
+  },
+  {
+    "id": "gi-desk",
+    "en": "Desk",
+    "zh": "书桌",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "lamp-desk",
+    "en": "Desk lamp",
+    "zh": "台灯",
+    "category": "home",
+    "hexcode": "E163",
+    "author": "Mark-Jonathan Freyer"
+  },
+  {
+    "id": "lightbulb",
+    "en": "Light bulb",
+    "zh": "灯泡",
+    "category": "home",
+    "hexcode": "1F4A1",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "flashlight",
+    "en": "Flashlight",
+    "zh": "手电筒",
+    "category": "home",
+    "hexcode": "1F526",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "om-1F56F",
+    "en": "Candle",
+    "zh": "蜡烛",
+    "category": "home",
+    "hexcode": "1F56F",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "clock",
+    "en": "Wall clock",
+    "zh": "挂钟",
+    "category": "home",
+    "hexcode": "1F552",
+    "author": "Rana Cakir"
+  },
+  {
+    "id": "watch",
+    "en": "Wristwatch",
+    "zh": "手表",
+    "category": "home",
+    "hexcode": "231A",
+    "author": "Rana Cakir"
+  },
+  {
+    "id": "om-1FA9E",
+    "en": "Mirror",
+    "zh": "镜子",
+    "category": "home",
+    "hexcode": "1FA9E",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1FA9F",
+    "en": "Window",
+    "zh": "窗户",
+    "category": "home",
+    "hexcode": "1FA9F",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "door-open",
+    "en": "Door",
+    "zh": "门",
+    "category": "home",
+    "hexcode": "1F6AA",
+    "author": "Lisa Schulz"
+  },
+  {
+    "id": "key",
+    "en": "Key",
+    "zh": "钥匙",
+    "category": "home",
+    "hexcode": "1F511",
+    "author": "Lisa Schulz"
+  },
+  {
+    "id": "om-1F512",
+    "en": "Padlock",
+    "zh": "挂锁",
+    "category": "home",
+    "hexcode": "1F512",
+    "author": "Lisa Schulz"
+  },
+  {
+    "id": "gi-porcelain-vase",
+    "en": "Vase",
+    "zh": "花瓶",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "gi-hanger",
+    "en": "Coat hanger",
+    "zh": "衣架",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "gi-towel",
+    "en": "Towel",
+    "zh": "毛巾",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "om-1FAA5",
+    "en": "Toothbrush",
+    "zh": "牙刷",
+    "category": "home",
+    "hexcode": "1FAA5",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F9FC",
+    "en": "Soap",
+    "zh": "肥皂",
+    "category": "home",
+    "hexcode": "1F9FC",
+    "author": "Tonia Reinhardt"
+  },
+  {
+    "id": "om-1F9F9",
+    "en": "Broom",
+    "zh": "扫帚",
+    "category": "home",
+    "hexcode": "1F9F9",
+    "author": "Tonia Reinhardt"
+  },
+  {
+    "id": "om-1FAA3",
+    "en": "Bucket",
+    "zh": "水桶",
+    "category": "home",
+    "hexcode": "1FAA3",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F9FA",
+    "en": "Basket",
+    "zh": "篮子",
+    "category": "home",
+    "hexcode": "1F9FA",
+    "author": "Tonia Reinhardt"
+  },
+  {
+    "id": "om-1F9FB",
+    "en": "Toilet paper",
+    "zh": "卫生纸",
+    "category": "home",
+    "hexcode": "1F9FB",
+    "author": "Tonia Reinhardt"
+  },
+  {
+    "id": "gi-vacuum-cleaner",
+    "en": "Vacuum cleaner",
+    "zh": "吸尘器",
+    "category": "home",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "om-1F9FD",
+    "en": "Sponge",
+    "zh": "海绵",
+    "category": "home",
+    "hexcode": "1F9FD",
+    "author": "Tonia Reinhardt"
+  },
+  {
+    "id": "om-1F6D2",
+    "en": "Shopping cart",
+    "zh": "购物车",
+    "category": "home",
+    "hexcode": "1F6D2",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "umbrella",
+    "en": "Umbrella",
+    "zh": "雨伞",
+    "category": "home",
+    "hexcode": "2602",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "om-1FAAD",
+    "en": "Folding hand fan",
+    "zh": "折扇",
+    "category": "home",
+    "hexcode": "1FAAD",
+    "author": "Anna Schneider"
+  },
+  {
+    "id": "om-E30F",
+    "en": "Hot-water bottle",
+    "zh": "热水袋",
+    "category": "home",
+    "hexcode": "E30F",
+    "author": "Tonia Reinhardt"
+  },
+  {
+    "id": "trash",
+    "en": "Trash can",
+    "zh": "垃圾桶",
+    "category": "home",
+    "hexcode": "1F5D1",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "tv",
+    "en": "Television",
+    "zh": "电视机",
+    "category": "home",
+    "hexcode": "1F4FA",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "smartphone",
+    "en": "Mobile phone",
+    "zh": "手机",
+    "category": "home",
+    "hexcode": "1F4F1",
+    "author": "Martin Wehl"
+  },
+  {
+    "id": "camera",
+    "en": "Camera",
+    "zh": "相机",
+    "category": "home",
+    "hexcode": "1F4F7",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "headphones",
+    "en": "Headphones",
+    "zh": "耳机",
+    "category": "home",
+    "hexcode": "1F3A7",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "laptop",
+    "en": "Laptop",
+    "zh": "电脑",
+    "category": "home",
+    "hexcode": "1F4BB",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "mouse",
+    "en": "Computer mouse",
+    "zh": "电脑鼠标",
+    "category": "home",
+    "hexcode": "1F5B1",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "om-2328",
+    "en": "Keyboard",
+    "zh": "键盘",
+    "category": "home",
+    "hexcode": "2328",
+    "author": "Carlin MacKenzie"
+  },
+  {
+    "id": "radio",
+    "en": "Radio",
+    "zh": "收音机",
+    "category": "home",
+    "hexcode": "1F4FB",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "hammer",
+    "en": "Hammer",
+    "zh": "锤子",
+    "category": "home",
+    "hexcode": "1F528",
+    "author": "Hilda Kalyoncu"
+  },
+  {
+    "id": "om-1FA9B",
+    "en": "Screwdriver",
+    "zh": "螺丝刀",
+    "category": "home",
+    "hexcode": "1FA9B",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "shovel",
+    "en": "Shovel",
+    "zh": "铲子",
+    "category": "home",
+    "hexcode": "1FA8F",
+    "author": "Daniel Utz"
+  },
+  {
+    "id": "om-1FA9C",
+    "en": "Ladder",
+    "zh": "梯子",
+    "category": "home",
+    "hexcode": "1FA9C",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "magnet",
+    "en": "Magnet",
+    "zh": "磁铁",
+    "category": "home",
+    "hexcode": "1F9F2",
+    "author": "Tonia Reinhardt"
+  },
+  {
+    "id": "om-1F50D",
+    "en": "Magnifying glass",
+    "zh": "放大镜",
+    "category": "home",
+    "hexcode": "1F50D",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "shirt",
+    "en": "Shirt",
+    "zh": "衬衫",
+    "category": "clothes",
+    "hexcode": "1F455",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "om-1F456",
+    "en": "Jeans",
+    "zh": "牛仔裤",
+    "category": "clothes",
+    "hexcode": "1F456",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "om-1F457",
+    "en": "Dress",
+    "zh": "连衣裙",
+    "category": "clothes",
+    "hexcode": "1F457",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "om-1F9E5",
+    "en": "Coat",
+    "zh": "外套",
+    "category": "clothes",
+    "hexcode": "1F9E5",
+    "author": "Daniel Quiros"
+  },
+  {
+    "id": "om-1FA73",
+    "en": "Shorts",
+    "zh": "短裤",
+    "category": "clothes",
+    "hexcode": "1FA73",
+    "author": "Sam Eckert"
+  },
+  {
+    "id": "om-1F9E6",
+    "en": "Socks",
+    "zh": "袜子",
+    "category": "clothes",
+    "hexcode": "1F9E6",
+    "author": "Laura Schießer"
+  },
+  {
+    "id": "om-1F9E4",
+    "en": "Gloves",
+    "zh": "手套",
+    "category": "clothes",
+    "hexcode": "1F9E4",
+    "author": "Laura Schießer"
+  },
+  {
+    "id": "om-1F9E3",
+    "en": "Scarf",
+    "zh": "围巾",
+    "category": "clothes",
+    "hexcode": "1F9E3",
+    "author": "Laura Schießer"
+  },
+  {
+    "id": "om-1F9E2",
+    "en": "Cap",
+    "zh": "帽子",
+    "category": "clothes",
+    "hexcode": "1F9E2",
+    "author": "Jennifer Pätzold"
+  },
+  {
+    "id": "om-1F45F",
+    "en": "Sneaker",
+    "zh": "运动鞋",
+    "category": "clothes",
+    "hexcode": "1F45F",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "om-1F460",
+    "en": "High heel",
+    "zh": "高跟鞋",
+    "category": "clothes",
+    "hexcode": "1F460",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "om-1F462",
+    "en": "Boot",
+    "zh": "靴子",
+    "category": "clothes",
+    "hexcode": "1F462",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "glasses",
+    "en": "Glasses",
+    "zh": "眼镜",
+    "category": "clothes",
+    "hexcode": "1F453",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "om-1F576",
+    "en": "Sunglasses",
+    "zh": "墨镜",
+    "category": "clothes",
+    "hexcode": "1F576",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "om-1F454",
+    "en": "Tie",
+    "zh": "领带",
+    "category": "clothes",
+    "hexcode": "1F454",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "ribbon",
+    "en": "Bow tie",
+    "zh": "领结",
+    "category": "clothes",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "backpack",
+    "en": "Backpack",
+    "zh": "背包",
+    "category": "clothes",
+    "hexcode": "1F392",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "om-1F45C",
+    "en": "Handbag",
+    "zh": "手提包",
+    "category": "clothes",
+    "hexcode": "1F45C",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "wallet",
+    "en": "Wallet",
+    "zh": "钱包",
+    "category": "clothes",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "luggage",
+    "en": "Suitcase",
+    "zh": "行李箱",
+    "category": "clothes",
+    "hexcode": "1F9F3",
+    "author": "Jonas Dunkel"
+  },
+  {
+    "id": "om-1F48D",
+    "en": "Ring",
+    "zh": "戒指",
+    "category": "clothes",
+    "hexcode": "1F48D",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "gi-necklace",
+    "en": "Necklace",
+    "zh": "项链",
+    "category": "clothes",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "book",
+    "en": "Book",
+    "zh": "书本",
+    "category": "play",
+    "hexcode": "1F4D8",
+    "author": "Abby Esquivel"
+  },
+  {
+    "id": "om-1F4D3",
+    "en": "Notebook",
+    "zh": "记事本",
+    "category": "play",
+    "hexcode": "1F4D3",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "newspaper",
+    "en": "Newspaper",
+    "zh": "报纸",
+    "category": "play",
+    "hexcode": "1F4F0",
+    "author": "Jonas Roßner"
+  },
+  {
+    "id": "pencil",
+    "en": "Pencil",
+    "zh": "铅笔",
+    "category": "play",
+    "hexcode": "270F",
+    "author": "Rana Cakir"
+  },
+  {
+    "id": "om-1F58A",
+    "en": "Ballpoint pen",
+    "zh": "圆珠笔",
+    "category": "play",
+    "hexcode": "1F58A",
+    "author": "Rana Cakir"
+  },
+  {
+    "id": "om-1F58D",
+    "en": "Crayon",
+    "zh": "蜡笔",
+    "category": "play",
+    "hexcode": "1F58D",
+    "author": "Rana Cakir"
+  },
+  {
+    "id": "om-1FA8C",
+    "en": "Eraser",
+    "zh": "橡皮擦",
+    "category": "play",
+    "hexcode": "1FA8C",
+    "author": "Mark-Jonathan Freyer"
+  },
+  {
+    "id": "ruler",
+    "en": "Ruler",
+    "zh": "尺子",
+    "category": "play",
+    "hexcode": "1F4CF",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "scissors",
+    "en": "Scissors",
+    "zh": "剪刀",
+    "category": "play",
+    "hexcode": "2702",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "paperclip",
+    "en": "Paper clip",
+    "zh": "回形针",
+    "category": "play",
+    "hexcode": "1F4CE",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "gi-stapler",
+    "en": "Stapler",
+    "zh": "订书机",
+    "category": "play",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "brush",
+    "en": "Paintbrush",
+    "zh": "画笔",
+    "category": "play",
+    "hexcode": "1F58C",
+    "author": "Rana Cakir"
+  },
+  {
+    "id": "palette",
+    "en": "Paint palette",
+    "zh": "调色板",
+    "category": "play",
+    "hexcode": "1F3A8",
+    "author": "Martin Wehl"
+  },
+  {
+    "id": "om-1F4C5",
+    "en": "Calendar",
+    "zh": "日历",
+    "category": "play",
+    "hexcode": "1F4C5",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "om-2709",
+    "en": "Envelope",
+    "zh": "信封",
+    "category": "play",
+    "hexcode": "2709",
+    "author": "Marius Schnabel"
+  },
+  {
+    "id": "kite",
+    "en": "Kite",
+    "zh": "风筝",
+    "category": "play",
+    "hexcode": "1FA81",
+    "author": "Evelyn Soos"
+  },
+  {
+    "id": "balloon",
+    "en": "Balloon",
+    "zh": "气球",
+    "category": "play",
+    "hexcode": "1F388",
+    "author": "Laura Humpfer"
+  },
+  {
+    "id": "gift",
+    "en": "Gift box",
+    "zh": "礼物盒",
+    "category": "play",
+    "hexcode": "1F381",
+    "author": "Laura Humpfer"
+  },
+  {
+    "id": "om-1F9F8",
+    "en": "Teddy bear",
+    "zh": "泰迪熊",
+    "category": "play",
+    "hexcode": "1F9F8",
+    "author": "Liz Bravo"
+  },
+  {
+    "id": "om-1F9E9",
+    "en": "Puzzle piece",
+    "zh": "拼图",
+    "category": "play",
+    "hexcode": "1F9E9",
+    "author": "Nicole Kornhaas"
+  },
+  {
+    "id": "om-26BD",
+    "en": "Soccer ball",
+    "zh": "足球",
+    "category": "play",
+    "hexcode": "26BD",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "om-1F3C0",
+    "en": "Basketball",
+    "zh": "篮球",
+    "category": "play",
+    "hexcode": "1F3C0",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "om-1F3F8",
+    "en": "Badminton racket",
+    "zh": "羽毛球拍",
+    "category": "play",
+    "hexcode": "1F3F8",
+    "author": "Sarah Mager"
+  },
+  {
+    "id": "om-1F3D3",
+    "en": "Table tennis paddle",
+    "zh": "乒乓球拍",
+    "category": "play",
+    "hexcode": "1F3D3",
+    "author": "Vanessa Boutzikoudi"
+  },
+  {
+    "id": "gi-jumping-rope",
+    "en": "Jump rope",
+    "zh": "跳绳",
+    "category": "play",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "guitar",
+    "en": "Guitar",
+    "zh": "吉他",
+    "category": "play",
+    "hexcode": "1F3B8",
+    "author": "Sina Schulz"
+  },
+  {
+    "id": "piano",
+    "en": "Piano",
+    "zh": "钢琴",
+    "category": "play",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "drum",
+    "en": "Drum",
+    "zh": "鼓",
+    "category": "play",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "bike",
+    "en": "Bicycle",
+    "zh": "自行车",
+    "category": "travel",
+    "hexcode": "1F6B2",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "car-front",
+    "en": "Car",
+    "zh": "小汽车",
+    "category": "travel",
+    "hexcode": "1F697",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "bus-front",
+    "en": "Bus",
+    "zh": "公交车",
+    "category": "travel",
+    "hexcode": "1F68C",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "truck",
+    "en": "Truck",
+    "zh": "卡车",
+    "category": "travel",
+    "hexcode": "1F69A",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "train-front",
+    "en": "Train",
+    "zh": "火车",
+    "category": "travel",
+    "hexcode": "1F686",
+    "author": "Nadja Grün"
+  },
+  {
+    "id": "plane",
+    "en": "Airplane",
+    "zh": "飞机",
+    "category": "travel",
+    "hexcode": "2708",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "om-1F681",
+    "en": "Helicopter",
+    "zh": "直升机",
+    "category": "travel",
+    "hexcode": "1F681",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "sailboat",
+    "en": "Sailboat",
+    "zh": "帆船",
+    "category": "travel",
+    "hexcode": "26F5",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "om-1F3CD",
+    "en": "Motorcycle",
+    "zh": "摩托车",
+    "category": "travel",
+    "hexcode": "1F3CD",
+    "author": "Johanna Wellnitz"
+  },
+  {
+    "id": "om-1F693",
+    "en": "Police car",
+    "zh": "警车",
+    "category": "travel",
+    "hexcode": "1F693",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "om-1F692",
+    "en": "Fire truck",
+    "zh": "消防车",
+    "category": "travel",
+    "hexcode": "1F692",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "ambulance",
+    "en": "Ambulance",
+    "zh": "救护车",
+    "category": "travel",
+    "hexcode": "1F691",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "om-1F695",
+    "en": "Taxi",
+    "zh": "出租车",
+    "category": "travel",
+    "hexcode": "1F695",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "om-1F6F4",
+    "en": "Kick scooter",
+    "zh": "滑板车",
+    "category": "travel",
+    "hexcode": "1F6F4",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "om-1F6F9",
+    "en": "Skateboard",
+    "zh": "滑板",
+    "category": "travel",
+    "hexcode": "1F6F9",
+    "author": "Jonas Dunkel"
+  },
+  {
+    "id": "om-1F6DE",
+    "en": "Wheel",
+    "zh": "车轮",
+    "category": "travel",
+    "hexcode": "1F6DE",
+    "author": "Niklas Kuntz"
+  },
+  {
+    "id": "traffic-cone",
+    "en": "Traffic cone",
+    "zh": "交通锥",
+    "category": "travel",
+    "hexcode": null,
+    "author": "Object Garden original artwork"
+  },
+  {
+    "id": "om-1F6A6",
+    "en": "Traffic light",
+    "zh": "红绿灯",
+    "category": "travel",
+    "hexcode": "1F6A6",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "anchor",
+    "en": "Anchor",
+    "zh": "船锚",
+    "category": "travel",
+    "hexcode": "2693",
+    "author": "Ronja Bäurlen"
+  },
+  {
+    "id": "tent",
+    "en": "Tent",
+    "zh": "帐篷",
+    "category": "travel",
+    "hexcode": "26FA",
+    "author": "Martin Wehl"
+  }
+]

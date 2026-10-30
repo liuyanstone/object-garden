@@ -2,9 +2,9 @@
 export function randomFrom(seed){return()=>{let t=seed+=0x6D2B79F5;t=Math.imul(t^t>>>15,t|1);t^=t+Math.imul(t^t>>>7,t|61);return((t^t>>>14)>>>0)/4294967296;};}
 export function scatter(width,count,seed){
  width=Math.max(240,Math.floor(width));
- let height=Math.max(480,Math.ceil(count*Math.PI*27.5**2/(width*.57)));
+ let height=Math.max(480,Math.ceil(count*Math.PI*29.5**2/(width*.57)));
  for(let pass=0;pass<12;pass++){
-  const random=randomFrom(seed),items=Array.from({length:count},()=>{const r=23+random()*5;return{r,rotation:(random()-.5)*50,x:r+7+random()*(width-2*r-14),y:r+7+random()*(height-2*r-14)};});
+  const random=randomFrom(seed),items=Array.from({length:count},()=>{const r=26+random()*5;return{r,rotation:(random()-.5)*24,x:r+7+random()*(width-2*r-14),y:r+7+random()*(height-2*r-14)};});
   // Relax random circles rather than aligning them in rows or columns.
   for(let step=0;step<1000;step++){
    for(let i=0;i<count;i++)for(let j=i+1;j<count;j++){
